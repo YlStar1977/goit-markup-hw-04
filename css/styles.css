@@ -144,9 +144,6 @@ body {
   padding-bottom: 188px;
 }
 
-.title-box {
-  margin: auto;
-}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -157,6 +154,7 @@ body {
   max-width: 496px;
   height: 120px;
   margin-bottom: 64px;
+  margin: auto;
 }
 
 .hero-button {
@@ -272,7 +270,7 @@ body {
   gap: 24px;
 }
 .card-style {
-  max-height: 380px;
+  min-height: 380px;
   flex-basis: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -322,8 +320,14 @@ body {
 /* social icon */
 .socials {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  padding: 0px;
   gap: 24px;
+
+  width: 232px;
+  height: 40px;
 }
 
 .socials-link {
@@ -334,12 +338,49 @@ body {
   background-color: var(--color-iris);
   border-radius: 50%;
 }
-.socials-link:hover,
-.socials-link:focus {
+/* .socials-link:hover {
   background-color: var(--color-green);
   cursor: pointer;
-}
+} */
 
+/* Section-4  */
+
+.backgroun-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  height: 88px;
+  left: 156px;
+}
+.title-icon {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--color-navy-blue);
+  padding-bottom: 72px;
+}
+.compani-link {
+  width: 168px;
+  height: 88px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.compani-icon {
+}
 /* Footer */
 .text-footer {
   font-family: var(--primary-front);
