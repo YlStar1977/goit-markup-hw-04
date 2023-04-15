@@ -382,6 +382,8 @@ body {
 .container-icon {
   display: flex;
   flex-direction: row;
+  width: 1128px;
+  height: 88px;
   gap: 24px;
 }
 .title-icon {
@@ -444,7 +446,7 @@ body {
 }
 .footer-logo {
   align-items: baseline;
-  gap: 120px;
+  margin-right: 120px;
 }
 .logo-footer-item {
   display: inline-block;
@@ -472,7 +474,7 @@ body {
 }
 /* Footer icons  */
 .container-icon-footer {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 .footer-conteiner {
   display: flex;
