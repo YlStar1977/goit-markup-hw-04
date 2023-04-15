@@ -130,6 +130,7 @@ body {
 
 /* Hero image */
 .hero-section {
+  background-color: var(--color-navy-blue);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -139,9 +140,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  background-color: var(--color-navy-blue);
+
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
+  height: 600px;
 }
 
 .hero-title {
@@ -389,12 +392,12 @@ body {
   height: 100%;
   color: #afb1b8;
 }
-.compani-icon {
+/* .compani-icon {
 }
 .compani-link:hover,
 .compani-link:focus {
   color: var(--color-ocean);
-}
+} */
 .link-icon {
   width: 168px;
   height: 88px;
@@ -405,6 +408,7 @@ body {
 .link-icon:hover,
 .link-icon:focus {
   border: 1px solid var(--color-ocean);
+  color: var(--color-ocean);
 }
 /* Footer */
 .text-footer {
