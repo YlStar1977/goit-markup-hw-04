@@ -391,9 +391,9 @@ body {
 }
 .compani-icon {
 }
-.compani-icon:hover,
-.compani-icon:focus {
-  color: var(--color-iris);
+.compani-link:hover,
+.compani-link:focus {
+  color: var(--color-ocean);
 }
 .link-icon {
   width: 168px;
@@ -404,7 +404,7 @@ body {
 }
 .link-icon:hover,
 .link-icon:focus {
-  border: 1px solid var(--color-iris);
+  border: 1px solid var(--color-ocean);
 }
 /* Footer */
 .text-footer {
