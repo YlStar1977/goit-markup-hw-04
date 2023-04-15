@@ -390,12 +390,10 @@ body {
   height: 100%;
   color: #afb1b8;
 }
-/* .compani-icon {
-}
-.compani-link:hover,
-.compani-link:focus {
+
+.compani-link:hover {
   color: var(--color-ocean);
-} */
+}
 .link-icon {
   width: 168px;
   height: 88px;
