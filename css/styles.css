@@ -401,11 +401,13 @@ body {
   height: 88px;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
-  /* color: #afb1b8; */
 }
-.link-icon.compani-icon:hover {
+.link-icon:hover {
   border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
+}
+.compani-icon {
+  fill: currentColor;
 }
 /* Footer */
 .text-footer {
