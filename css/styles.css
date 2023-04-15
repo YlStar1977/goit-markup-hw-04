@@ -138,8 +138,9 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  background-position: center;
+
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-position: top;
   max-width: 1440px;
@@ -368,7 +369,7 @@ body {
 .socials-link:focus {
   background-color: var(--color-ocean);
 }
-.social-icon {
+.socials-icon {
   fill: var(--color-cloud);
 }
 
@@ -408,12 +409,13 @@ body {
 .compani-link:hover,
 .compani-link:focus {
   color: var(--color-ocean);
+  border: var(--color-ocean);
 }
 .link-icon {
   width: 168px;
   height: 88px;
 }
-.link-icon:hover {
+.link-icon {
   border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
 }
@@ -474,6 +476,7 @@ body {
 }
 .footer-conteiner {
   display: flex;
+  align-items: baseline;
 }
 .icon-text {
   font-weight: 500;
