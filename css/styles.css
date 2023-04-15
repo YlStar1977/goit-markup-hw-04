@@ -345,24 +345,14 @@ body {
 }
 
 .socials-item {
+}
+.socials-link {
   display: flex;
   justify-content: center;
   width: 40px;
   height: 40px;
   background-color: var(--color-iris);
   border-radius: 50%;
-}
-.socials-icon {
-  padding: 12px;
-}
-.socials-link {
-  /* padding: 12px; */
-  /* display: flex;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: var(--color-iris);
-  border-radius: 50%; */
 }
 
 /* Section-4  */
