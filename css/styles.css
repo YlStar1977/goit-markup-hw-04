@@ -369,9 +369,7 @@ body {
 .container-icon {
   display: flex;
   flex-direction: row;
-
   gap: 24px;
-  position: absolute;
 }
 .title-icon {
   font-weight: 700;
