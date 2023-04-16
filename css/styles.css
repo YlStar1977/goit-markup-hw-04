@@ -146,7 +146,6 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
-  /* height: 600px; */
 }
 
 .hero-title {
@@ -246,14 +245,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* .icons-about {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-} */
 
 /* Section 2 */
 .container-section {
@@ -304,8 +295,6 @@ body {
 .card-prof {
   padding-top: 32px;
   padding-bottom: 32px;
-  /* padding-left: 16px;
-  padding-right: 16px; */
 }
 .title-style-section {
   font-weight: 700;
@@ -345,13 +334,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
-
-  /* width: 232px;
-  height: 40px; */
 }
 
-/* .socials-item {
-} */
 .socials-link {
   display: flex;
   justify-content: center;
@@ -415,6 +399,7 @@ body {
   height: 88px;
 }
 .link-icon {
+  border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
 }
 .compani-icon {
@@ -469,13 +454,10 @@ body {
   color: var(--color-cloud);
 }
 /* Footer icons  */
-.container-icon-footer {
-  /* margin-left: 120px; */
-}
+
 .footer-conteiner {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .icon-text {
   font-weight: 500;
@@ -585,11 +567,6 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
-/* .border-gallery:hover,
-.border-gallery:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
 .gallery-link {
   display: block;
 }
