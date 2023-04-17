@@ -455,7 +455,6 @@ body {
 .footer-conteiner {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .icon-text {
   font-weight: 500;
