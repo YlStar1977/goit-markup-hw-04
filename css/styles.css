@@ -240,7 +240,6 @@ body {
   background: var(--color-cloud);
   border-radius: 4px;
   margin-bottom: 8px;
-  padding: 24px 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -343,7 +342,6 @@ body {
   height: 40px;
   background-color: var(--color-iris);
   border-radius: 50%;
-  padding: 12px;
   align-items: center;
 }
 .socials-link:hover,
@@ -392,14 +390,13 @@ body {
 .compani-link:hover,
 .compani-link:focus {
   color: var(--color-ocean);
-  border: var(--color-ocean);
+  border: 1px solid var(--color-ocean);
 }
 .link-icon {
   width: 168px;
   height: 88px;
 }
 .link-icon {
-  border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
 }
 .compani-icon {
